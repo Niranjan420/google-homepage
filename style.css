@@ -1,0 +1,111 @@
+html, body {
+   height: 100vh;
+}
+.topnav {
+    background-color: white;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color:blue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 13px;
+  font-family: Arial, sans-serif;
+  color: rgba(0, 0, 0, 0.87)
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    text-decoration: underline;
+    text-underline-position: below;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+}
+
+.wrapper{
+    height: 90%;
+}
+img {
+    height: 110px;
+    width: 326px;
+}
+
+input{
+    height: 44px;
+    width: 487px;
+    border-radius: 20px;
+    border-width: 0.5px;
+}
+
+
+.content { 
+    height: 60%; 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+} 
+
+.buttons {
+    width: 571px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 10px;
+    padding-top: 20px;
+}
+
+.btn {
+    background-color: #F6F6F6;
+    height: 50px;
+    border: 1px solid #f2f2f2;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    transition-duration: 0.2s;
+    border-radius: 4px;
+    margin: 12px;
+}
+
+.btn:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
+}
+
+.botnav {
+    background-color: #F2F2F2;
+    overflow: hidden;
+    bottom: 0;
+    position: fixed;
+    width: 100%
+}
+
+.botnav a {
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    padding: 14px 16px;
+    font-family: Arial, sans-serif;
+    color: #5F6368;
+}
+
+.botnav a:hover {
+    text-decoration: underline;
+    text-underline-position: below;
+}
+
+.botnav-right{
+    float: right;
+}
